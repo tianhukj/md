@@ -1,0 +1,60 @@
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f0f9ff;">
+  <table role="presentation" style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td align="center" style="padding: 40px 0;">
+        <table role="presentation" style="width: 600px; border-collapse: collapse; background-color: #ffffff; border-radius: 16px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);">
+          <!-- Header -->
+          <tr>
+            <td style="padding: 48px 48px 32px; text-align: center; background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); border-radius: 16px 16px 0 0;">
+              <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">天互生物</h1>
+              <p style="margin: 8px 0 0; color: #e0f2fe; font-size: 14px; font-weight: 500;">核酸结果查询系统</p>
+            </td>
+          </tr>
+          
+          <!-- Content -->
+          <tr>
+            <td style="padding: 48px 48px 32px;">
+              <h2 style="margin: 0 0 16px; color: #0f172a; font-size: 24px; font-weight: 600;">验证您的邮箱地址</h2>
+              <p style="margin: 0 0 24px; color: #475569; font-size: 16px; line-height: 1.6;">
+                感谢您注册天互生物核酸结果查询系统。请点击下方按钮验证您的邮箱地址以完成注册流程。
+              </p>
+              
+              <!-- Button -->
+              <table role="presentation" style="margin: 32px 0;">
+                <tr>
+                  <td align="center">
+                    <a href="{{ .ConfirmationURL }}" style="display: inline-block; padding: 16px 48px; background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); color: #ffffff; text-decoration: none; border-radius: 8px; font-size: 16px; font-weight: 600; box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);">
+                      验证邮箱地址
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              
+              <p style="margin: 32px 0 0; color: #64748b; font-size: 14px; line-height: 1.6;">
+                如果按钮无法点击，请复制以下链接到浏览器地址栏访问：
+              </p>
+              <p style="margin: 12px 0 0; padding: 16px; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; color: #475569; font-size: 13px; word-break: break-all; font-family: 'Courier New', monospace;">
+                {{ .ConfirmationURL }}
+              </p>
+            </td>
+          </tr>
+          
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 32px 48px 48px; border-top: 1px solid #e2e8f0;">
+              <p style="margin: 0 0 8px; color: #94a3b8; font-size: 13px; line-height: 1.6;">
+                <strong>重要提示：</strong>该验证链接将在 24 小时后失效。
+              </p>
+              <p style="margin: 0; color: #94a3b8; font-size: 13px; line-height: 1.6;">
+                如果您没有注册此账号，请忽略此邮件。
+              </p>
+              <p style="margin: 24px 0 0; color: #cbd5e1; font-size: 12px; text-align: center;">
+                © 2025 天互生物 | 核酸结果查询系统
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
