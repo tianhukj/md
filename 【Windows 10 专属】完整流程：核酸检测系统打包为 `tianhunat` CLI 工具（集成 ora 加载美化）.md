@@ -213,7 +213,7 @@ const REPO_MAP = {
   admin: 'tianhukj/Nat-Admin',    // 管理系统仓库
   query: 'tianhukj/Nat-Result-t0',    // 查询系统仓库
   reserve: 'tianhukj/Nat-Result',// 预约系统仓库
-  dashboard: 'tianhukj/nat-data// 大数据看板仓库
+  dashboard: 'tianhukj/nat-data' // 大数据看板仓库
 };
 
 // 初始化命令行工具
