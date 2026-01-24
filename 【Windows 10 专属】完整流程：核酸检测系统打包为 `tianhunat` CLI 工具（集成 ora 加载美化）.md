@@ -1,6 +1,5 @@
 # 【Windows 10 专属】完整流程：核酸检测系统打包为 `tianhunat` CLI 工具（集成 ora 加载美化）
 
-# 【Windows 10 专属】完整流程：将核酸检测系统打包为 `tianhunat` CLI 工具（集成 ora 加载美化）
 
 本流程专为 Windows 10 系统设计，在原有完整流程基础上新增 `ora` 加载动画美化功能，涵盖 **GitHub 仓库准备 → CLI 包开发（含加载动画）→ npm 发布 → 用户使用** 全链路，所有操作基于 Windows 10 终端（CMD/PowerShell），提供截图级详细指令、完整代码和问题排查方案，零 Mac 相关内容。
 
@@ -211,10 +210,10 @@ const ora = require('ora'); // 导入 ora 加载动画工具
 
 // 核心配置：GitHub 仓库地址映射（替换成你的 GitHub 用户名！共 4 处）
 const REPO_MAP = {
-  admin: '你的GitHub用户名/tianhunat-admin',    // 管理系统仓库
-  query: '你的GitHub用户名/tianhunat-query',    // 查询系统仓库
-  reserve: '你的GitHub用户名/tianhunat-reserve',// 预约系统仓库
-  dashboard: '你的GitHub用户名/tianhunat-dashboard'// 大数据看板仓库
+  admin: 'tianhukj/Nat-Admin',    // 管理系统仓库
+  query: 'tianhukj/Nat-Result-t0',    // 查询系统仓库
+  reserve: 'tianhukj/Nat-Result',// 预约系统仓库
+  dashboard: 'tianhukj/nat-data// 大数据看板仓库
 };
 
 // 初始化命令行工具
